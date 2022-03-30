@@ -1,20 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
-
 * {
     margin: 0px;
-    box-sizing: border-box;
+    border-bottom: 0px;
+    padding: 0px;
+   
     
 
 }
 
 body {
-    padding: 10px;
+    padding-bottom: 5px;
     font-family: Poppins;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4PTPzYfAoF3VoR6k0806uQ5N18RUk1YnUA&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 8px solid bisque;
-    
+    border: 10px solid bisque;
+    min-height: 100vh;
 
 }
  
@@ -23,8 +23,7 @@ body {
 .resume {
    background-color: bisque;
    color: rgb(6, 6, 39);
-   font-size: 20px;
-    /* width: 400px; */
+   font-size: 40px;
    padding: 5px;
    border: 2px dashed rgb(6, 6, 39);
    margin: 20px;
@@ -37,42 +36,40 @@ body {
     background-color: bisque;
     color: rgb(6, 6, 39);
     margin: 20px;
-    /* width: 400px; */
     padding: 5px;
     border: 2px dashed rgb(6, 6, 39);
-    font-size: 20px;
+    font-size: 40px;
 }
 
- /* .icon { 
+ .icon { 
     float: right;
-    font-size: medium;
+    font-size: 25px;
     color: bisque;
     margin-top: 2px;
-    margin-right: 10px;
-    padding-top: 2px;
-}   */
+    padding-right: 5px; 
+}    
 
 .h1 {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bolder;
     color: rgb(6, 6, 39);
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     color: rgb(6, 6, 39);
-    margin-left: 20px;
+    margin-left: 30px;
     
     
 }
 
 .links {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(6, 6, 39);
-    margin-left: 20px;
+    margin-left: 30px;
     
 }
 
@@ -80,9 +77,11 @@ body {
     
     float: right;
     border-radius: 900px; 
-    margin-right: 20px;
-    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+    margin-top: 150px;
     border: 5px solid rgb(108, 134, 143);
+    margin-right: 20px;
 
     
 
@@ -93,27 +92,24 @@ body {
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .p1 {
     color: rgb(6, 6, 39);
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 /* ===========I.D. SELECTORS========== */
 
 #box {
+    display: block;
     height: 75px;
     width: auto;
     background-color: rgb(6, 6, 39);
-    position: relative;
-    padding-top: 20px;
-    /* margin-right: 50px; */
-    
-
-
+    padding-top: 30px;  
+   
 }
