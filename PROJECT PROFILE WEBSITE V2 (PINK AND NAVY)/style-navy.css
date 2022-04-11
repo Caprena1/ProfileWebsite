@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+    
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    margin: auto; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(6, 6, 39);
+    color:rgb(255, 225, 199);
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    padding: 1px 2px;
+   
+
+}
+
+footer h2 {
+    display: flex;
+    color: rgb(255, 225, 199); 
+    width: fit-content;
+    margin: 2rem auto; 
+    font-size: 25px;
+}
+
+footer section > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 225, 199);
+    font-size: 25px; 
+    margin-left: 350px;  
+    margin-bottom: 15px; 
+
+}
+
+footer i {
+    font-size: 32px;
+    color: rgb(255, 225, 199);
+}
+ 
+
+
+
+/*===============TAG SELECTOR====================*/
+a {
+    color: rgb(255, 225, 199);
+}
+
+form {
+    display: block;
+    padding: 20px 5px;
+    margin-left: 200px;
+    font-size: 20px;
+   
+} 
+
+h1 {
+    font-size: 36px;
+    background-color: rgb(6, 6, 39); 
+    font-weight: 900;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: 0px 8px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+p {
+
+    font-family: 'Poppins', sans-serif;
+    /* padding: 5px; */
+    font-size: 20px;
+}
+
+
+
+/*===============CLASS SELECTOR===================*/
+.ul-flex {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bolder;
+    list-style: none; 
+}
+
+
+
+.banner {
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4PTPzYfAoF3VoR6k0806uQ5N18RUk1YnUA&usqp=CAU) no-repeat center center fixed;
+    background-size: cover;
+    border-top: 7px solid rgb(6, 6, 39);
+    border-bottom: 7px solid rgb(6, 6, 39);
+    color:rgb(255, 225, 199);
+    margin-top: 20px;
+    height: 500px;
+}
+.profile-pic {
+    display: flex;
+    width: 400px;
+    border-radius: 900px;
+    margin-top: 10px;
+    
+    /* float: right; */
+    
+}
+    
+.border {
+    border: 7px solid rgb(6, 6, 39);
+    min-height: 100vh;
+    
+}
+
+ .background {
+     /* background-color: rgba(211, 191, 167, 0.637); */
+     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4PTPzYfAoF3VoR6k0806uQ5N18RUk1YnUA&usqp=CAU) no-repeat center center fixed;
+    background-size: cover;
+ }
+    
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-left: 2rem;  
+    /* align-items: center; */
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin: 3rem 0; */
+}
+
+
+.column-1 {
+    width: 60%;  
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.column-list {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin-bottom: 16px;
+
+}
+
+.column-1 section { 
+    display: flex;
+    flex-direction: column;
+    margin:auto 5rem; 
+} 
+
+.experience-section {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    align-items: center;
+    font-weight: 400;
+}
+.project-card img {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height:300px;
+    margin-top: 50px;  
+    margin-left: 100px; 
+}
+
+.project-card p {
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding-top: 1rem;
+    padding-left: 2rem;  
+}
+
+#button {
+    background-color: rgb(6, 6, 39);
+    color:rgb(255, 225, 199);
+    border: 2px solid rgb(255, 225, 199);
+    padding: 8px; 
+    margin-top: 16px; 
+    width:fit-content;
+    font-size: 15px;
+}
+
+.fa-brands{
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+
+.social-media {
+    list-style: none; 
+}
+
+.icon-size {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .row {
+        flex-direction: column;
+        gap: 2px; 
+    }
+
+    .column-list {
+        flex-direction: column;
+        gap: 2px; 
+    }
+
+}
+
