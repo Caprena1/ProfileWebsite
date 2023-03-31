@@ -124,8 +124,6 @@ p {
     border-radius: 900px;
     margin-top: 10px;
     
-    /* float: right; */
-    
 }
     
 .border {
@@ -189,7 +187,7 @@ p {
 .column-1 section { 
     display: flex;
     flex-direction: column;
-    margin:auto 5rem; 
+    margin: auto 5rem; 
 } 
 
 .experience-section {
